@@ -18,18 +18,35 @@
 	height: 100vh;
 	width: 100vw;
 	z-index: -1;
+	background: #000;
 }
 
 #bgvideo {
-	min-height: 100vh;
-	min-width: 100%;
-	max-width: 100%;
+	height: 100vh;
+	z-index: 0;
+}
+
+.viewport {
 	position: absolute;
-	top: 50%;
+	top: 0;
 	left: 50%;
-	-webkit-transform: translate(-50%, -50%);
-	-moz-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	transform: translateX(-50%);
+	height: 100vh;
+	width: auto;
+}
+
+.viewport:after {
+	content: '';
+	display: block;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	box-shadow: inset 0 0 2rem 3rem #000;
 }
 
 .screen {
