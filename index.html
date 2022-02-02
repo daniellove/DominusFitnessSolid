@@ -29,9 +29,10 @@
 	</div>
 
 	<div id="backgroundModule" class="container-fluid fixed-top">
-		<video autoplay loop muted id="bgvideo">
-			<source src="assets/background.mp4">
+		<video id="bg" autoplay loop muted frameWidth="3840" frameHeight="2160">
+			<source src="assets/background.mp4" type="video/mp4">
 		</video>
+		<script type="text/javascript">setDims('id')</script>
 		<div class="screen"></div>
 	</div>
 
