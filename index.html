@@ -19,17 +19,18 @@
 					<i class="fas fa-bars"></i>
 				</div>	
 				<div id="navLogo" class="d-none d-sm-block col-sm-8 text-center">
-					<img class="img-fluid vCenter" src="assets/logo/logo-white.png">
+					<img class="img-fluid vCenter" src="assets/logo.png">
 				</div>
 				<div id="cart" class="col-6 col-sm-2">
-					<i class="fas fa-shopping-cart"></i>
+					<img class="img-fluid vCenter" src="assets/shopping-cart.png">
+					<!-- <i class="fas fa-shopping-cart"></i> -->
 				</div>	
 			</div>
 		</div>
 	</div>
 
 	<div id="backgroundModule" class="container-fluid fixed-top">
-		<video id="bg" autoplay loop muted frameWidth="3840" frameHeight="2160">
+		<video id="bg" autoplay loop muted playsinline frameWidth="3840" frameHeight="2160">
 			<source src="assets/background.mp4" type="video/mp4">
 		</video>
 		<script type="text/javascript">setDims('id')</script>
@@ -41,14 +42,31 @@
 			<div class="row vCenter">
 				<div class="col-12 text-center">
 					<h1>START YOUR JOURNEY TODAY</h1>
+					<button type="button" class="btn btn-primary">GET STARTED NOW</button>
 				</div>
 			</div>
 		</div>
 	</div>
 
 	<div id="about" class="container-fluid content">
-		<div class="container module">
-			
+		<div class="container module d-flex align-items-center">
+			<div class="row d-flex align-items-center justify-content-between">
+				<div class="col-12 col-sm-6">
+					<div class="heading">
+						<h3 class="topLine">About me</h3>
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<button type="button" class="btn btn-primary">GET IN SHAPE TODAY</button>
+				</div>
+				<div class="col-12 col-sm-4">
+					<img id="about-image" src="assets/kane.jpg">
+				</div>
+			</div>
 		</div>
 	</div>
 </body>
