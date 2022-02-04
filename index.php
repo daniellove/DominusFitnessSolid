@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html translate="no">
-<?php include '/php-elements/head.php' ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'/projects/DominusFitness/php-elements/head.php'); ?>
 <body>
 
-	<?php include '/php-elements/nav.php'; ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/projects/DominusFitness/php-elements/nav.php'); ?>
 	<!-- <div id="topNav" class="container fixed">
 		<div class="nav">
 			<div id="menu">
