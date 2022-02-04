@@ -10,7 +10,9 @@
 	<script type="text/javascript" src="files/script.js"></script>
 </head>
 <body>
-	<div id="topNav" class="container fixed">
+
+	<?php include 'nav.php'; ?>
+	<!-- <div id="topNav" class="container fixed">
 		<div class="nav">
 			<div id="menu">
 				<i class="fas fa-bars"></i>
@@ -20,11 +22,9 @@
 			</div>
 			<div id="purchase">
 				<p>SIGN UP</p>
-				<!-- <img src="assets/shopping-cart.png"> -->
-				<!-- <i class="fas fa-shopping-cart"></i> -->
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<div id="background" class="container fixed">
 		<video id="bg" autoplay loop muted playsinline frameWidth="3840" frameHeight="2160">
