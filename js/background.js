@@ -12,7 +12,7 @@ function setDims(id) {
 	var frameHeight = $('#'+id).attr('frameHeight')
 	var minHeight = dimWidth/frameWidth*frameHeight
 
-	console.log(minHeight, dimHeight)
+	// console.log(minHeight, dimHeight)
 	if (minHeight < dimHeight) {
 		$('#'+id).addClass('dimFlip')
 	} else {
