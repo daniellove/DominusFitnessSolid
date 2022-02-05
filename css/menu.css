@@ -1,10 +1,50 @@
-.menu {
+#menuEle {
 	background: #000;
-	padding: 2rem;
+	/*padding: 1rem 0;*/
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	-webkit-transform: translateY(100%);
 	-moz-transform: translateY(100%);
 	transform: translateY(100%);
+}
+
+#menuEle span {
+	display: block;
+	color: #FFF;
+	font-size: 1.4rem;
+	line-height: 3;
+	padding: 0 10rem 0 1.5rem;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	position: relative;
+}
+
+#menuEle span i {
+	position: absolute;
+	top: 50%;
+	right: 1.5rem;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	opacity: 0;
+	color: #FFF;
+	padding: 0.3rem 0 0 0;
+	font-size: 2rem;
+}
+
+#menuEle span:hover {
+	background: var(--logoShadeD);
+}
+
+#menuEle span:hover i {
+	opacity: 1;
 }
