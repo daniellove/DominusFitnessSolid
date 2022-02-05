@@ -13,7 +13,7 @@
 			<button type="button" class="btn">GET IN SHAPE TODAY</button>
 		</div>
 		<div id="about-image">
-			<img id="about-image" src="assets/kane.jpg">
+			<img id="about-image" src="/DominusFitnessSolid/assets/kane.jpg">
 		</div>
 	</div>
 </div>
