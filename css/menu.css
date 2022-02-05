@@ -7,6 +7,16 @@
 	-webkit-transform: translateY(100%);
 	-moz-transform: translateY(100%);
 	transform: translateY(100%);
+	display: none;
+	opacity: 0;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+#menu:hover #menuEle {
+	display: block;
+	opacity: 1;
 }
 
 #menuEle span {
