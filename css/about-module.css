@@ -1,0 +1,29 @@
+#about {
+	background: #FFF;
+}
+
+#about .module {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#about .module > div {
+	width: 50%;
+}
+
+#about-image {
+	position: relative;
+}
+
+#about-image img {
+	position: absolute;
+	top: 0;
+	right: 0;
+	-webkit-transform: translateY(calc(-50vh + 7rem));
+	-moz-transform: translateY(calc(-50vh + 7rem));
+	transform: translateY(calc(-50vh + 7rem));
+	max-width: 100%;
+	width: auto;
+	height: auto;
+}

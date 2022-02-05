@@ -1,0 +1,16 @@
+[type="button"] {
+	padding: 1rem 2rem;
+	margin-top: 1rem;
+	background-color: var(--logoShadeD);
+	border-color: var(--logoShadeD);
+	transition: all ease-in-out 0.15s;
+	cursor: pointer;
+	border: none;
+}
+
+[type="button"]:hover,
+[type="button"]:focus,
+[type="button"]:active {
+	background-color: var(--logo);
+	border-color: var(--logo);
+}
