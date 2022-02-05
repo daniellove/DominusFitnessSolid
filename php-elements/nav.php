@@ -2,10 +2,10 @@
 	<div class="nav">
 		<div id="menu">
 			<i class="fas fa-bars"></i>
-			<?php include($_SERVER['DOCUMENT_ROOT'].'/projects/DominusFitness/php-elements/menu.php'); ?>
+			<?php include($_SERVER['DOCUMENT_ROOT'].'/DominusFitness/php-elements/menu.php'); ?>
 		</div>
 		<div id="home">
-			<img src="/projects/DominusFitness/assets/logo.png">
+			<img src="/DominusFitness/assets/logo.png">
 		</div>
 		<div id="purchase">
 			<p>SIGN UP</p>
