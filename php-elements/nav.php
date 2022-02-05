@@ -5,7 +5,7 @@
 			<?php include($_SERVER['DOCUMENT_ROOT'].'/DominusFitness/php-elements/menu.php'); ?>
 		</div>
 		<div id="home">
-			<img src="/DominusFitness/assets/logo.png">
+			<img onclick="window.location = '/DominusFitness/'" src="/DominusFitness/assets/logo.png">
 		</div>
 		<div id="purchase">
 			<p>SIGN UP</p>
